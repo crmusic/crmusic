@@ -54,7 +54,26 @@
 <section class="container-fluid" id="section1">
   	<div class="row">
     	<div class="col-md-5 col-md-offset-1">
-        <img src="personal.jpg" id="personal">
+        <!--<img src="personal.jpg" id="personal">-->
+        <div id="carousel" class="carousel slide" data-ride"carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/personal.jpg" id="personal">
+            </div>
+            <div class="item">
+                <img src="img/tequilaMix.jpg" id="personal">
+            </div>
+            <div class="item">
+                <img src="img/triple.jpg" id="personal">
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-md-5" style="margin-top:8em">
         <p style="font-size:1.5em">Throughout his life, Cole has aspired to make a great impact on music just as it has upon him. He started out playing the drums at the age of 8, and from there taught 
@@ -96,5 +115,12 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/scripts.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 3000
+        })
+      });
+    </script>
 	</body>
 </html>
