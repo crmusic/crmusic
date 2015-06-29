@@ -168,4 +168,33 @@ footer .nav>li>a:hover {
         height:75%;
         margin-left:15%;
     }
+
+@media (max-width: 640px){
+    #section1{
+        height: calc(300% - 1px);
+    }
+
+    #banner{
+        margin-left:0%;
+        width:322px;
+        height:300px;
+    }
+
+    #landing{
+        height: calc(100% - 1px);
+    }
+
+    #info{
+        margin-left:10%;
+    }
+
+    #location{
+        margin-left:10%;
+    }
+
+    #personal{
+        width:75%;
+        height:75%;
+        margin-left:15%;
+    }
 }
