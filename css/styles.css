@@ -171,7 +171,7 @@ footer .nav>li>a:hover {
 
 @media (max-width: 640px){
     #section1{
-        height: calc(300% - 1px);
+        height: calc(420% - 1px);
     }
 
     #banner{
@@ -181,7 +181,7 @@ footer .nav>li>a:hover {
     }
 
     #landing{
-        height: calc(100% - 1px);
+        height: calc(150% - 1px);
     }
 
     #info{
