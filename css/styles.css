@@ -111,8 +111,7 @@ footer .nav>li>a:hover {
 
 .social{
     padding-top:50px;
-}
-
+} 
 .tiny-logo{
     height:50px;
     margin-top:-1em;
@@ -139,4 +138,34 @@ footer .nav>li>a:hover {
     height:600px;
     width:645px;
     margin-left:27%;
+}
+
+@media (max-width: 767px){
+    #section1{
+        height: calc(250% - 1px);
+    }
+
+    #banner{
+        margin-left:15%;
+        width:322px;
+        height:300px;
+    }
+
+    #landing{
+        height: calc(90% - 1px);
+    }
+
+    #info{
+        margin-left:10%;
+    }
+
+    #location{
+        margin-left:10%;
+    }
+
+    #personal{
+        width:75%;
+        height:75%;
+        margin-left:15%;
+    }
 }
